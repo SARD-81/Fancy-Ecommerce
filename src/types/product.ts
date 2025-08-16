@@ -2,7 +2,7 @@ import type { Category } from "./category";
 import type { Review } from "./review";
 
 export type ProductResponse = {
-  _id: string;
+  _id: string | number;
   name: string;
   image: string;
   quantity: number;
