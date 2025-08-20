@@ -1,20 +1,15 @@
-// import MainBtn from "../components/MainBtn";
-// import ProductCard from "../components/ProductCard";
+import { Box } from "@mui/material";
+import bannerimg1 from "../../public/images/Banner/ordinary-life-scene-from-mall-america.jpg";
+import bannerimg2 from "../../public/images/Banner/woman-choosing-phone-technology-store.jpg";
+import MainBanner from "../components/MainBanner";
+
 const Home = () => {
+  const bannerImages = [bannerimg1, bannerimg2];
   return (
-    <div className="mt-70 ml-70">
-      {/* <MainBtn
-        variant="contained"
-        color="primary"
-        size="large"
-        gradient
-        hoverEffect="lift"
-        onClick={() => alert("salam")}
-      >
-        salam
-      </MainBtn> */}
-      {/* <ProductCard/> */}
-    </div>
+    <Box>
+      {/* Main Banner */}
+      <MainBanner images={bannerImages} />
+    </Box>
   );
 };
 

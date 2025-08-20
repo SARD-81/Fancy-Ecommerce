@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Archivo";
+  src: url("./../public/fonts/Archivo/Archivo-VariableFont_wdth\,wght.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Archivo-Bold";
+  src: url("./../public/fonts/Archivo/static/Archivo-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+}
+
+* {
+  font-family: Archivo;
+}
+
+@theme {
+  --color-my-primary: #42a5f5;
+  /* --color-my-secondary: #417f25; */
+  --color-error: #ef4444;
+}

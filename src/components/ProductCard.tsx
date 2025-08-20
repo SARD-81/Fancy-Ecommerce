@@ -24,7 +24,7 @@ const ProductCard = ({
   imageSrc,
   onEdit,
   onShowMore,
-  onAddToBask,
+  onAddToBasket,
 }: IProductCardProps) => {
   return (
     <Box
