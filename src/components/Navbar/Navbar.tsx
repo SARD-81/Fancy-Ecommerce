@@ -20,7 +20,6 @@ import DashboardDropdown from "./DashboardDropdown";
 import LanguageSelector from "./LanguageSelector";
 import SearchInput from "./SearchInput";
 
-
 {
   /* Styled components for hover animations */
 }
@@ -117,7 +116,7 @@ const Navbar = () => {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", mb: "64px" }}>
       <AppBar
         position="fixed"
         sx={{
@@ -128,7 +127,6 @@ const Navbar = () => {
           zIndex: theme.zIndex.drawer + 1,
         }}
       >
-       
         <Toolbar sx={{ justifyContent: "space-between" }}>
           {/* Logo and hamburger menu */}
           <Box sx={{ display: "flex", alignItems: "center" }}>
